@@ -19,3 +19,8 @@ model table2 {
   id   Int                   @id @default(autoincrement())
   name String
 }
+
+model t {
+  id   Int                   @id @default(autoincrement())
+  name String
+}
